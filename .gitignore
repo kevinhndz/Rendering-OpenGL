@@ -1,1 +1,3 @@
-include/
+*.exe
+/nave
+.local-deps/

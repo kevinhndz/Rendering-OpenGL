@@ -1,0 +1,25 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Ejecutar nave OpenGL",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "${workspaceFolder}/nave",
+      "args": [],
+      "stopAtEntry": false,
+      "cwd": "${workspaceFolder}",
+      "environment": [
+        { "name": "LD_LIBRARY_PATH", "value": "" },
+        { "name": "GSETTINGS_SCHEMA_DIR", "value": "/usr/share/glib-2.0/schemas" },
+        { "name": "GTK_EXE_PREFIX", "value": "" },
+        { "name": "GTK_PATH", "value": "" },
+        { "name": "GTK_IM_MODULE_FILE", "value": "" },
+        { "name": "GIO_MODULE_DIR", "value": "" }
+      ],
+      "externalConsole": false,
+      "MIMode": "gdb",
+      "miDebuggerPath": "/usr/bin/gdb"
+    }
+  ]
+}
